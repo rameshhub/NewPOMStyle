@@ -25,20 +25,6 @@
       </suite> 
       
       
-       <!--  <parameter name="browsername1" value="firefox"></parameter> -->
-    <!--    <test name="Test1">
   
-  <parameter name="browsername1" value="chrome"></parameter>
-  
-    <classes>
-    
-      <class name="pageFunctions.MainClass"/>
-       
-       
-      
-    </classes>
-    </test>
-    
-    -->
    
 

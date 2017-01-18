@@ -4,6 +4,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import browser.CreateBrowserInstance;
 import pageUtils.WaitsClass;
+import pages.HomePage;
 import pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 
@@ -11,8 +12,6 @@ import org.openqa.selenium.WebDriver;
 public class MainClass extends CreateBrowserInstance {
 	
 	WebDriver driver;
-	
-	
 	
 	@Test()
 	@Parameters({"browsername1"})
@@ -29,6 +28,12 @@ public class MainClass extends CreateBrowserInstance {
 		 login.navigateUrl(driver);
 	
 		 login.LogInAction(driver,waitForMe );
+		 
+		 HomePage hm=new HomePage();
+		 
+		 hm.logout(driver);
+		 
+		 driver.close();
 
 	}
 	

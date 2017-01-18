@@ -26,7 +26,7 @@ public class CreateBrowserInstance {
 		
 		else{
 			 
-			 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Desktop\\chromedriver_win32\\chromedriver.exe");
+			 System.setProperty("webdriver.chrome.driver", "D:\\Testing\\chromedriver_win32\\chromedriver.exe");
 			 
 			 driver=new ChromeDriver();
 			 
