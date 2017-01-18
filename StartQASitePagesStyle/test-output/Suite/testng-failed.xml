@@ -7,19 +7,9 @@
     <classes>
       <class name="pageFunctions.MainClass">
         <methods>
-          <include name="StartMethod"/>
+          <include name="StartMethod" invocation-numbers="0"/>
         </methods>
       </class> <!-- pageFunctions.MainClass -->
     </classes>
   </test> <!-- Test1(failed) -->
-  <test name="Test(failed)" parallel="tests">
-    <parameter name="browsername1" value="firefox"/>
-    <classes>
-      <class name="pageFunctions.MainClass">
-        <methods>
-          <include name="StartMethod"/>
-        </methods>
-      </class> <!-- pageFunctions.MainClass -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
