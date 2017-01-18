@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81683" started-at="2017-01-18T13:44:56Z" finished-at="2017-01-18T13:46:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32926" started-at="2017-01-18T13:44:56Z" finished-at="2017-01-18T13:45:29Z">
+      <class name="pageFunctions.MainClass">
+        <test-method status="PASS" signature="StartMethod(java.lang.String)[pri:0, instance:pageFunctions.MainClass@10399e]" name="StartMethod" duration-ms="32902" started-at="2017-01-18T05:44:56Z" finished-at="2017-01-18T05:45:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartMethod -->
+      </class> <!-- pageFunctions.MainClass -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="81631" started-at="2017-01-18T13:44:56Z" finished-at="2017-01-18T13:46:18Z">
+      <class name="pageFunctions.MainClass">
+        <test-method status="PASS" signature="StartMethod(java.lang.String)[pri:0, instance:pageFunctions.MainClass@38203]" name="StartMethod" duration-ms="81627" started-at="2017-01-18T05:44:56Z" finished-at="2017-01-18T05:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartMethod -->
+      </class> <!-- pageFunctions.MainClass -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
