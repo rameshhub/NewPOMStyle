@@ -4,6 +4,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import browser.CreateBrowserInstance;
 import pageUtils.WaitsClass;
+import pages.FoldersRestrictionsPage;
 import pages.HomePage;
 import pages.LoginPage;
 import org.openqa.selenium.WebDriver;
@@ -31,9 +32,19 @@ public class MainClass extends CreateBrowserInstance {
 		 
 		 HomePage hm=new HomePage();
 		 
-		 hm.logout(driver);
+		 hm.navigatingToFolders(driver);
 		 
-		 driver.close();
+		 FoldersRestrictionsPage fg=new FoldersRestrictionsPage();
+		 
+		
+		 
+		 fg.OpenSettingsDialog(driver, waitForMe);
+		 
+		// fg.FolderRestrictionsPage(driver);
+		 
+		// hm.logout(driver);
+		 
+		// driver.close();
 
 	}
 	
